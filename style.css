@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow&display=swap');
+
+
 html {
-    background-image: url(background.jpg);
+    background-image: url(assets/home/background-home-desktop.jpg);
     background-size: cover;
     height: 100%;
     overflow: hidden;
     color: white;
 }
+
 
 /* Home Page */
 
@@ -19,10 +23,19 @@ nav {
     flex-direction: column;
 }
 
-.space-quote, .quote{
-    font-size: 28px;
-    letter-spacing: 4.75;
+.space-quote {
+    font-size: 28pt;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 200;
+    letter-spacing: .5rem
 }
+
+.quote {
+    font-size: 18pt;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+}
+
 .container-2 {
     display: flex;
     flex-direction: column;
@@ -31,15 +44,12 @@ nav {
     left: 250px;
     bottom: -250px;
 }
+
 .space {
     font-size: 200px;
 }
 
-.quote {
-    letter-spacing: 4.75;
-}
-
-.explore  {
+.explore {
     border: 3px solid white;
     background-color: white;
     border-radius: 50%;
@@ -57,5 +67,4 @@ nav {
 
 .explore:hover {
     background-color: lightgrey;
-    
 }
