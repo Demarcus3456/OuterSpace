@@ -2,25 +2,46 @@
 
 
 html {
-    background-image: url(assets/home/background-home-desktop.jpg);
+    background-image: url( ./assets/home/background-home-desktop.jpg); 
+    ackground-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    overflow: hidden;
+    background-position: center;
+    margin: 0;
+    padding: 0;
     color: white;
+    height: 100%;
 }
 
+body {
+  min-height: 100%;
+}
 
 /* Home Page */
 
-nav {
-    font-size: 16px;
-    word-spacing: 2.7;
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 22px;
+    width: 80%;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 10px;
+    justify-items: right;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .container-1 {
     border: 3px solid red;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    flex-direction: row;
 }
 
 .space-quote {
@@ -46,7 +67,7 @@ nav {
 }
 
 .space {
-    font-size: 200px;
+    font-size: 200pt;
 }
 
 .explore {
